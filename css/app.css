@@ -1,0 +1,306 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+:root {
+  --bs-body-bg: #fff;
+}
+
+.roboto-light {
+  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", sans-serif !important;
+  font-weight: 300;
+}
+
+.roboto-regular {
+  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", sans-serif !important;
+  font-weight: 400;
+}
+
+.roboto-medium {
+  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", sans-serif !important;
+  font-weight: 500;
+}
+
+.roboto-bold {
+  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", sans-serif !important;
+  font-weight: 700;
+}
+
+@media (min-width: 1200px) {
+  .container, .container-sm, .container-md, .container-lg, .container-xl {
+    max-width: 1170px;
+  }
+}
+.col-sm-20p,
+.col-md-20p,
+.col-lg-20p,
+.col-sm-40p,
+.col-md-40p,
+.col-lg-40p,
+.col-sm-60p,
+.col-md-60p,
+.col-lg-60p,
+.col-sm-80p,
+.col-md-80p,
+.col-lg-80p {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+@media (min-width: 576px) {
+  .col-sm-20p {
+    flex: 0 0 20%;
+    max-width: 20%;
+  }
+
+  .col-sm-40p {
+    flex: 0 0 40%;
+    max-width: 40%;
+  }
+
+  .col-sm-60p {
+    flex: 0 0 60%;
+    max-width: 60%;
+  }
+
+  .col-sm-80p {
+    flex: 0 0 80%;
+    max-width: 80%;
+  }
+}
+@media (min-width: 768px) {
+  .col-md-20p {
+    flex: 0 0 20%;
+    max-width: 20%;
+  }
+
+  .col-md-40p {
+    flex: 0 0 40%;
+    max-width: 40%;
+  }
+
+  .col-md-60p {
+    flex: 0 0 60%;
+    max-width: 60%;
+  }
+
+  .col-md-80p {
+    flex: 0 0 80%;
+    max-width: 80%;
+  }
+}
+@media (min-width: 992px) {
+  .col-lg-20p {
+    flex: 0 0 20%;
+    max-width: 20%;
+  }
+
+  .col-lg-40p {
+    flex: 0 0 40%;
+    max-width: 40%;
+  }
+
+  .col-lg-40p {
+    flex: 0 0 60%;
+    max-width: 60%;
+  }
+
+  .col-lg-80p {
+    flex: 0 0 80%;
+    max-width: 80%;
+  }
+}
+.firstLogo {
+  background-color: #292662;
+}
+
+.topRightbar {
+  background-color: #292662;
+}
+
+.topAd {
+  width: 90%;
+  background: #F7F7F7;
+}
+
+.news {
+  text-decoration: underline;
+  font-weight: 900;
+}
+
+.links {
+  font-weight: 500;
+}
+
+.navBack {
+  background: #FEE200;
+}
+
+.line {
+  color: #FEE200;
+  height: 1px;
+  opacity: 1;
+}
+
+.bites {
+  text-decoration: underline;
+  font-weight: 800;
+}
+
+.twocontent {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.flint {
+  text-decoration: underline;
+}
+
+.header {
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.bottomads {
+  background: #F7F7F7;
+}
+
+.footerP {
+  color: white;
+  font-weight: 300;
+}
+
+.linksFooter {
+  color: white;
+}
+.linksFooter ul {
+  list-style: none;
+}
+.linksFooter a, .linksFooter a:hover {
+  text-decoration: none;
+  color: #F7F7F7;
+}
+
+.CategoriesFooter li a {
+  list-style: none;
+  text-decoration: none;
+  color: #F7F7F7;
+}
+
+.bitesDesc {
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.GRTV {
+  text-decoration: underline;
+  font-size: 14px;
+  font-weight: 700;
+  color: black;
+}
+
+.JohnsHeader {
+  color: #292662;
+  font-weight: 800;
+  font-size: 24px;
+}
+
+.JohnsDesc {
+  color: #292662;
+  font-weight: 600;
+}
+
+.JohnBlogDesc {
+  color: #292662;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.footerHeader {
+  color: #FEE200;
+}
+
+.info {
+  background-color: #FEE200;
+  height: 50px;
+}
+
+body {
+  color: #292662;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: #292662;
+}
+a:hover {
+  color: #292662;
+}
+
+.ad-frame {
+  background-color: #F7F7F7;
+  border: 1px solid #DEE2E6;
+}
+
+hr.line {
+  border-top: 1px solid #FEE200;
+}
+
+.section-title h2 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+.story-date {
+  font-size: 10px;
+  line-height: 12px;
+}
+
+h2.story-title {
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 22px;
+}
+
+h3.story-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+h4.story-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.story-desc {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.learn-more {
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 12px;
+}
+
+.download-paper {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+}
+
+.border-gray {
+  border: 1px solid #DEE2E6;
+  border-radius: 4px;
+}
+
+.footer-copyright {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+}/*# sourceMappingURL=app.css.map */
