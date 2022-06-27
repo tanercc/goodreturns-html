@@ -135,6 +135,28 @@
   background: #FEE200;
 }
 
+.searchLine .searchInput {
+  display: none;
+  border: 2px solid #292662;
+  border-radius: 4px;
+}
+.searchLine .closeIcon {
+  width: 25px;
+  height: 24px;
+  display: none;
+  cursor: pointer;
+}
+.searchLine .closeIcon:hover {
+  transform: rotate(-20deg);
+}
+
+.searchIcon {
+  cursor: pointer;
+}
+.searchIcon:hover {
+  transform: rotate(-20deg);
+}
+
 .line {
   color: #FEE200;
   height: 1px;
@@ -303,4 +325,17 @@ h4.story-title {
   font-weight: 500;
   font-size: 12px;
   line-height: 14px;
+}
+
+.regulationimg {
+  display: flex;
+  justify-content: space-around;
+}
+
+.googlebanner {
+  height: 200px;
+}
+
+.sponsorimg {
+  height: 250px;
 }/*# sourceMappingURL=app.css.map */
