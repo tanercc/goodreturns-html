@@ -9,18 +9,22 @@ include('partials/navigation.html')
 <!-- Main Content -->
 <main>
 
-    <section class="article">
+    <section class="tags">
         <!-- Body -->
         <div class="container">
             <div class="row">
                 <div class="col-sm-8 left-body-content">
 
                     <?php
-                    include('partials/article.html')
+                    include('partials/tags.html')
                     ?>
 
                 </div>
                 <div class="col-sm-4 right-body">
+
+                    <?php
+                    include('partials/sidebar/news-bites.html')
+                    ?>
 
                     <?php
                     include('partials/sidebar/latest-comments.html')
